@@ -1,3 +1,83 @@
-div {
-    border: 1px solid red;
+
+/***** BASE STYLES *****/
+body {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #000;
+    font-weight: 400;
+}
+#about, #portfolio, #contact {
+    height: auto;
+}
+h2 {
+    text-align: center;
+    color: #fa0075;
+    font-family: 'Source Code Pro';
+    font-size: 36px;
+}
+
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 100px;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url("../img/hero-background.png");
+    background-size: cover;
+}
+header h3 {
+    font-size: 30px;
+    padding-left: 25px;
+}
+nav {
+    float: right;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+#tagline {
+    float: left;
+    font-size: 72px;
+    font-family: 'Source Code Pro';
+}
+#tagline span {
+    color: #fa0075;
+    font-weight: 600;
+}
+/***** PORTFOLIO *****/
+#portfolio .half-width {
+    height: 500px;
+}
+#portfolio img {
+    padding: 25px;
+}
+/***** ABOUT *****/
+#about {
+    background: url("../img/about-me.png");
+    background-size: cover;
+    height: 550px;
+    clear: both;
+}
+#about p {
+    color: #000;
+}
+#statment {
+    font-weight: 700;
 }
