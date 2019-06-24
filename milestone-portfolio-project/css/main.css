@@ -78,6 +78,9 @@ nav ul li a {
     height: 550px;
     clear: both;
 }
+#about h2 {
+    padding-top: 30px;
+}
 #about p {
     color: #000;
 }
