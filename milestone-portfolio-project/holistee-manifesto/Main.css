@@ -1,0 +1,79 @@
+div {
+    background-color: lightgray;
+    overflow: auto;
+    width: 588px;
+}
+
+aside {
+    width: 288px;
+    height: 488px;
+    float: left;
+}
+
+#aside-one {
+    margin: 6px 0px 0px 6px;
+}
+
+#aside-two {
+    margin: 6px 6px 0px 0px;
+}
+
+#aside-three {
+    margin: 0px 0px 6px 6px;
+}
+
+#aside-four {
+    margin: 0px 6px 6px 0px;
+}
+
+.box-one {
+    background-color: coral;
+    width: 288px;
+    height: 488px;
+}
+
+.box-two {
+    background-color: blue;
+    width: 288px;
+    height: 244px;
+}
+
+.box-three {
+    background-color: aqua;
+    width: 288px;
+    height: 244px;
+}
+
+.box-four {
+    background-color: teal;
+    width: 288px;
+    height: 244px;
+}
+
+#four {
+    float: left;
+    margin-left: 6px;
+}
+
+#five {
+    float: left;
+}
+
+p {
+    font-family: Quattrocento;
+    font-size: 22px;
+    padding: 40px 40px 0px 40px;
+}
+
+.l-p {
+    font-size: 26px;
+    padding: 30px 30px 0px 30px;
+}
+
+.p-1 {
+    font-family: Oswald;
+}
+
+.p-2 {
+    font-size: 18px
+}
